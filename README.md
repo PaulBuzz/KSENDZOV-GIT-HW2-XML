@@ -78,8 +78,9 @@ Command: vim preferences.xml
   <country_to_visit>Denmark</country_to_visit>
 </root>
 ```
-14. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML.
+14. Создать файл skills.xml и добавить информацию о скиллах, которые будут изучены на курсе в формате XML.
 ```
+Command: touch skills.xml
 Command: vim skills.xml   
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
